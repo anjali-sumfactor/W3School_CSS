@@ -1,0 +1,18 @@
+.para1 {
+    border: 5px solid red;
+}
+
+.para2 {
+    border: 3px dashed green;
+}
+
+.para3 {
+    border-style: dotted;
+}
+
+.para4 {
+    border-top: 2px solid yellow;
+    border-bottom: 3px dashed blue;
+    border-left: 4px dotted black;
+    border-right: 4px dotted black;
+}
