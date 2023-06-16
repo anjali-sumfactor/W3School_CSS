@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        table,
+        tr,
+        th,
+        td {
+            border: 2px solid rgb(38, 38, 59);
+        }
+
+        th {
+            height: 60px;
+            text-align: center;
+        }
+
+        td {
+            height: 40px;
+            vertical-align: middle;
+            padding-left: 10px;
+        }
+
+        td:hover {
+            background-color: hotpink;
+        }
+
+        tr:nth-child(even) {
+            background-color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="overflow-x: auto;">
+        <table>
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+            </tr>
+            <tr>
+                <td>Vinne</td>
+                <td>Sen</td>
+            </tr>
+            <tr>
+                <td>Jennifer</td>
+                <td>Stewart</td>
+            </tr>
+            <tr>
+                <td>Vinne</td>
+                <td>Sen</td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
