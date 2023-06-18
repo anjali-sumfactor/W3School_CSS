@@ -1,0 +1,17 @@
+.container1 {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+    position: relative;
+    /* z-index: 1; */
+}
+
+.container2 {
+    width: 200px;
+    height: 200px;
+    background-color: hotpink;
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    z-index: -1;
+}
