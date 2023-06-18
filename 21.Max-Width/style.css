@@ -1,0 +1,11 @@
+.div1 {
+    width: 500px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.div2{
+    max-width: 500px;
+    border: 2px solid black;
+    margin: 10px;
+}
