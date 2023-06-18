@@ -1,0 +1,44 @@
+.static {
+    /* normal position by default*/
+    position: static;
+}
+
+.fixed {
+    /* positioned relative to it's viewport  */
+    position: fixed;
+}
+
+.relative {
+    /* relative to it's normal position */
+    position: relative;
+    top: 60px;
+    left: 100px;
+    width: 500px;
+    background-color: antiquewhite;
+    margin-bottom: 100px;
+}
+
+.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 5px;
+    background-color: #cae8ca;
+    border: 2px solid #4CAF50;
+}
+
+.relat {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #2198ad;
+}
+
+.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 100px;
+    border: 3px solid #218aad;
+}
