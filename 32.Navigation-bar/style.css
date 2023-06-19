@@ -1,0 +1,17 @@
+ul {
+    list-style-type: none;
+    margin: 10px;
+    padding: 0;
+}
+
+ul li a {
+    text-decoration: none;
+}
+
+.verticle li {
+    display: block;
+}
+
+.horizontal li{
+    display: inline;
+}
