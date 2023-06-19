@@ -1,0 +1,57 @@
+.img {
+    opacity: 0.2;
+    height: 200px;
+    width: 300px;
+}
+
+.img1 {
+    opacity: 0.5;
+    height: 200px;
+    width: 300px;
+}
+
+.img2 {
+    /* default */
+    opacity: 1;
+    height: 200px;
+    width: 300px;
+}
+
+.img3 {
+    opacity: 1;
+    height: 200px;
+    width: 300px;
+}
+
+.img3:hover {
+    opacity: 0.5;
+}
+
+.img4 {
+    opacity: 0.5;
+    height: 200px;
+    width: 300px;
+}
+
+.img4:hover {
+    opacity: 1;
+}
+
+.div-without-rgb {
+    opacity: 0.3;
+    height: 200px;
+    width: 300px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div-with-rgb {
+    height: 200px;
+    width: 300px;
+    background-color: rgb(143, 238, 228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
