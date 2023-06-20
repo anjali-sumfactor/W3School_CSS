@@ -1,0 +1,9 @@
+input[type="text"]{
+    background-color: rgb(113, 202, 199);
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+a[target="_top"]{
+    background-color: rgb(221, 243, 122);
+}
