@@ -6,3 +6,25 @@ p::before {
     counter-increment: section;
     content: "Section " counter(section) ": ";
 }
+
+h3 {
+    font-size: 30px;
+}
+
+div {
+    counter-reset: section;
+}
+
+h1 {
+    counter-reset: subsection;
+}
+
+h1::before {
+    counter-increment: section;
+    content: "Section " counter(section) ". ";
+}
+
+h2::before {
+    counter-increment: subsection;
+    content: counter(section) "." counter(subsection) " ";
+}
