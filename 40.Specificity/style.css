@@ -17,3 +17,23 @@ p{
 h1{
     color: aqua;
 }
+
+.intro{
+    background-color: yellow;
+}
+
+h2{
+    background-color: burlywood;
+}
+
+h3{
+    background-color: blue;
+}
+
+.inline-css-class{
+    background-color: lawngreen;
+}
+
+#inline-css-id{
+    background-color: lightblue;
+}
