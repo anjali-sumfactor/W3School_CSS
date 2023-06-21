@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+/* Absolute length:-Absolute length units are fixed */
+.cm {
+    font-size: 1cm;
+}
+
+.mm {
+    font-size: 15mm;
+}
+
+.in {
+    font-size: 0.5in;
+}
+
+.px {
+    font-size: 20px;
+}
+
+.pt {
+    font-size: 40pt;
+}
+
+.pc {
+    font-size: 3.5pc;
+}
+
+/* Relative length: Relative length units specify a length relative to another length property */
+
+.em {
+    font-size: 1em;
+}
+
+.rem {
+    font-size: 1.5rem;
+}
+
+.vw {
+    font-size: 5vw;
+}
+
+.vh {
+    font-size: 7vh;
+}
+
+.vmin {
+    font-size: 12vmin;
+}
+
+.vmax {
+    font-size: 8vmax;
+}
+
+.percentage{
+    font-size: 160%;
+}
