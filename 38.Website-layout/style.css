@@ -20,17 +20,21 @@ aside {
     background-color: bisque;
     width: 300px;
     text-align: center;
-    float: left;
 }
 
 main {
     min-height: 80vh;
     background-color: rgb(208, 228, 246);
     text-align: center;
+    width: calc(100% - 300px);
 }
 
 footer {
     height: 10vh;
     background-color: blueviolet;
     text-align: center;
+}
+
+div {
+    display: flex;
 }
