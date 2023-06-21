@@ -1,0 +1,11 @@
+#paraId {
+    background-color: aqua;
+}
+
+.paraClass {
+    background-color: aquamarine;
+}
+
+p {
+    background-color: chartreuse !important;
+}
