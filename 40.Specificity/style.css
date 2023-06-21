@@ -1,0 +1,19 @@
+.para{
+    color: green;
+}
+
+p{
+    color: red;
+}
+
+#heading-id{
+    color: yellow;
+}
+
+.heading-class{
+    color: brown;
+}
+
+h1{
+    color: aqua;
+}
