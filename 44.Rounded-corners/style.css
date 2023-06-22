@@ -1,0 +1,55 @@
+.corner {
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 25px;
+}
+
+#rcorners1 {
+    background: #73AD21;
+
+}
+
+#rcorners2 {
+    border: 2px solid #73AD21;
+}
+
+#rcorners3 {
+    background: url(roundedImg.avif);
+    background-repeat: no-repeat;
+}
+
+.corners {
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    background-color: aqua;
+}
+
+#corners1 {
+    border-radius: 15px 60px 35px 10px;
+}
+
+#corners2 {
+    border-radius: 15px 50px 30px;
+}
+
+#corners3 {
+    border-radius: 25px 70px;
+}
+
+#corners4 {
+    border-radius: 20px;
+}
+
+#corn1 {
+    border-radius: 50px / 15px;
+}
+
+#corn2 {
+    border-radius: 15px / 60px;
+}
+
+#corn3 {
+    border-radius: 50%;
+}
