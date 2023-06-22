@@ -1,0 +1,29 @@
+#borderimg {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(roundedImg.avif) 30 round;
+}
+
+#borderStretch {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(roundedImg.avif) 30% stretch;
+}
+
+#borderRound50 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(roundedImg.avif) 50 round;
+}
+
+#borderRound20 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(roundedImg.avif) 20% round;
+}
+
+#borderRound30 {
+    border: 10px solid transparent;
+    padding: 15px;
+    border-image: url(roundedImg.avif) 30% round;
+}
