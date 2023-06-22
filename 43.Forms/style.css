@@ -1,0 +1,26 @@
+input[type="text"] {
+    width: 100%;
+    margin: 8px 0;
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #d8d8d8;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    border: none;
+    margin: 8px 0;
+    cursor: pointer;
+    color: white;
+    padding: 14px 20px;
+    border-radius: 5px;
+}
+
+div {
+    background-color: #f2f2f2;
+    padding: 22px;
+    width: 100%;
+    border-radius: 5px;
+}
