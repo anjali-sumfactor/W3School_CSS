@@ -1,0 +1,38 @@
+/* body {
+    background-image: url("roundedImg.avif");
+    background-size: cover;
+} */
+
+div.ex1 {
+    background-color: lightgreen;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+div.ex2 {
+    background-color: transparent;
+    border: 2px solid black;
+    padding: 15px;
+}
+
+
+body {
+    color: purple;
+}
+
+div {
+    background-color: currentcolor;
+    padding: 15px;
+}
+
+div p {
+    color: white;
+}
+
+/* div {
+    border: 2px solid red;
+}
+
+span {
+    border: inherit;
+} */
