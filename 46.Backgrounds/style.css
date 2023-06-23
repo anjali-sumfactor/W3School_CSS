@@ -1,0 +1,53 @@
+body{
+    font-family: cursive;
+}
+
+.div {
+    background-image: url(roundedImg.avif), url(nauture.webp);
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+    color: white;
+}
+
+#div1 {
+    background-image: url(nauture.webp);
+    border: 1px solid black;
+    padding: 15px;
+    background-size: 220px 100px;
+    background-repeat: no-repeat;
+}
+
+#div2 {
+    background-image: url(nauture.webp);
+    border: 1px solid black;
+    padding: 15px;
+    background-repeat: no-repeat;
+    background-size: 500px auto;
+}
+
+.div1 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(roundedImg.avif);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.div2 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(roundedImg.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div3 {
+    border: 1px solid black;
+    height: 120px;
+    width: 150px;
+    background: url(roundedImg.avif);
+    background-repeat: no-repeat;
+}
