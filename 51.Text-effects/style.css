@@ -1,0 +1,45 @@
+.para1 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+}
+
+.para2 {
+    white-space: nowrap;
+    width: 200px;
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.para3 {
+    width: 11em;
+    border: 1px solid #000000;
+    word-wrap: break-word;
+}
+
+.para4 {
+    width: 140px;
+    border: 1px solid #000000;
+    word-break: keep-all;
+}
+
+.para5 {
+    width: 140px;
+    border: 1px solid #000000;
+    word-break: break-all;
+}
+
+.para6 {
+    writing-mode: horizontal-tb;
+}
+
+span.para7 {
+    writing-mode: vertical-rl;
+}
+
+.para7 {
+    writing-mode: vertical-rl;
+}
