@@ -1,0 +1,42 @@
+.div1 {
+    width: 300px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid black;
+    transform: translate(50px, 100px);
+    margin-bottom: 100px;
+}
+
+.div2,
+.div3,
+.div5,
+.div6,
+.div7,
+.div8 {
+    width: 300px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid black;
+}
+
+.div3 {
+    transform: rotate(20deg);
+    margin-bottom: 50px;
+}
+
+.div4 {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: chartreuse;
+    border: 1px solid black;
+    transform: scale(2, 3);
+}
+
+.div6 {
+    transform: skewX(20deg);
+}
+
+.div8 {
+    transform: matrix(1, -0.3, 0, 1, 0, 0);
+}
