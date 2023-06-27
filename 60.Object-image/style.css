@@ -1,0 +1,20 @@
+.img1 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 70% 100%;
+}
+
+.img2 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 20% 100%;
+}
+
+.img3 {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    object-position: 5% 45%;
+}
