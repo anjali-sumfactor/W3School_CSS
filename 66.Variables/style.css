@@ -1,0 +1,18 @@
+:root {
+    --green: #8ded64;
+    --white: #faf0e6;
+}
+
+body {
+    background-color: var(--green);
+}
+
+h2 {
+    border-bottom: 2px solid var(--green);
+}
+
+.container {
+    color: var(--blue);
+    background-color: var(--white);
+    padding: 15px;
+}
