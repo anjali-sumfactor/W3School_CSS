@@ -1,0 +1,19 @@
+/* body {
+    background-color: pink;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+        background-color: lightblue;
+    }
+} */
+
+body {
+    background-color: lightseagreen;
+}
+
+@media screen and (min-width: 680px) {
+    body {
+        background-color: lightsalmon;
+    }
+}
